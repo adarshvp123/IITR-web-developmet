@@ -1,1 +1,1 @@
-## Experiment name
+## Log and Antilog amplifiers.
