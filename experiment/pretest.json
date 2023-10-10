@@ -14,42 +14,42 @@
 			"correctAnswer": "b"
 		},
 		{
-			"question": "In logarithmic signal compression __________.",
+			"question": "In an 8051 microcontroller binary counter with LEDs, what is the typical purpose of the LEDs?",
 			"answers": {
-				"a": "large and small voltages are compressed equally",
-				"b": "large voltages are compressed more than small voltages",
-				"c": "large voltages are compressed less than smaller voltages",
-				"d": "none of the above"
+				"a": "To display the current time",
+				"b": "To indicate the status of input/output pins",
+				"c": "To visualize the binary count",
+				"d": "To control the power supply"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": " If you want to interface eight LEDs with an 8051 microcontroller to display an 8-bit binary count, how many I/O pins would you need?",
+			"answers": {
+				"a": "2 pins",
+				"b": "4 pins",
+				"c": "8 pins",
+				"d": " 16 pins"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "When the binary counter reaches its maximum value in an 8051 microcontroller setup with LEDs, what LED pattern is typically displayed before it resets to zero?",
+			"answers": {
+				"a": "All LEDs off",
+				"b": "All LEDs on",
+				"c": "All LEDs on",
+				"d": "Random LED pattern"
 			},
 			"correctAnswer": "b"
 		},
 		{
-			"question": "A log amplifier has _____ in the feedback loop.",
+			"question": " In an 8051 microcontroller binary counter LED project, how can you change the speed at which the LEDs cycle through the binary count?",
 			"answers": {
-				"a": "a diode",
-				"b": "a BJT",
-				"c": "a resistor",
-				"d": "either a diode or a BJT"
-			},
-			"correctAnswer": "d"
-		},
-		{
-			"question": "The log of a number is the _________.",
-			"answers": {
-				"a": "base to which the power must be raised to get that number",
-				"b": "power to which the base must be raised to get that number",
-				"c": "base of that number",
-				"d": "power of that number"
-			},
-			"correctAnswer": "b"
-		},
-		{
-			"question": "Which of the following functions does the antilog computation required to perform continuously with log amplifiers?",
-			"answers": {
-				"a": "ln(x)",
-				"b": "log(x)",
-				"c": "sinh(x)",
-				"d": "All of the above"
+				"a": "By changing the voltage supply",
+				"b": "By altering the crystal oscillator frequency",
+				"c": "By modifying the LED resistor values",
+				"d": "By adjusting the  delay"
 			},
 			"correctAnswer": "d"
 		}
