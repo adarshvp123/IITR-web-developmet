@@ -35,7 +35,7 @@ The output voltage V<sub>0</sub> has a negative sign, which indicates that there
 ### 2) Antilog Amplifier 
 
 An op-amp based anti-logarithmic amplifier produces a voltage at the output, which is proportional to the anti-logarithm of the voltage that is applied to the diode connected to its inverting input. The circuit diagram of an op-amp based anti-logarithmic amplifier is shown in figure 2.<br>
-<center><img src="images/anti.jpg" style=" height: 180px" align="center"></center><br>
+<center><img src="https://user-images.githubusercontent.com/57490073/273803034-21bc78bd-ac6c-4eec-b5bd-acdf5620f841.jpg" style=" height: 180px" align="center"></center><br>
 <center><b> Fig 2:Op-amp based Anti-Logarithmic Amplifier</b></center><br>
 In the circuit shown above, the non-inverting input of the op-amp is connected to ground. According to the virtual ground concept, the voltage at the inverting input of op-amp will be equal to the voltage present at its non-inverting input. So, the voltage at its inverting input will be zero volts.<br>
 The nodal equation at the inverting input node is <br>
