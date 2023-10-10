@@ -2,12 +2,14 @@
     "version": 2.0,
     "questions":[
 		{
-			"question": "The output voltage of a log amplifier using BJT is measured between __________ junction.",
+			"question": " Which port of the 8051 microcontroller is commonly used for interfacing LEDs and other digital output devices?
+
+a) ACC (Accumulator)",
 			"answers": {
-				"a": "Base-collector",
-				"b": "Base-emitter",
-				"c": "Emitter-collector",
-				"d": "Emitter-ground"
+				"a": "P0 (Port 0)",
+				"b": "P1 (Port 1)",
+				"c": "P2 (Port 2)",
+				"d": "P3 (Port 3)"
 			},
 			"correctAnswer": "b"
 		},
