@@ -7,7 +7,7 @@ The electronic circuits which can perform the mathematical operations such as lo
 ### 1) Log Amplifier
 
 A logarithmic amplifier is an electronic circuit that produces an output that is proportional to the logarithm of the applied input. An op-amp based logarithmic amplifier produces a voltage at the output, which is proportional to the logarithm of the voltage applied to the resistor connected to its inverting terminal. The circuit diagram of op-amp based logarithmic amplifier is shown in figure 1. <br>
-<center><img src="[images/log1.jpg](https://user-images.githubusercontent.com/57490073/273801545-2e919ccf-0909-4c1f-a503-3a69ba5ad47b.jpg)" style=" height: 180px" align="center"></center><br>
+<center><img src="images/log1.jpg" style=" height: 180px" align="center"></center><br>
 <center><b>Fig 1: Op-amp based Logarithmic Amplifier</b></center><br>
 In the above circuit, the non-inverting input terminal of the op-amp is connected to ground. That means zero volts is applied at the non-inverting input terminal of the op-amp.<br>
 The nodal equation at the inverting input is as follows<br>
