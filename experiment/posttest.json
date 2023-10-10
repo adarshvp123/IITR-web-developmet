@@ -1,39 +1,56 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+ {
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "The input voltage, 6V and reference voltage, 4V are applied to a log-amp with saturation current and temperature compensation. Find the output voltage of the log-amp?",
+			"answers": {
+				"a": "6.314(kT/q)V",
+				"b": "0.597(kT/q)V",
+				"c": "0.405(kT/q)V",
+				"d": "1.214(kT/q)V"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "Find the output voltage of the antilog-amplifier.",
+			"answers": {
+				"a": "V<sub>0</sub> = -R<sub>f</sub> I<sub>s</sub> e(V<sub>i</sub>/ɳVT)",
+				"b": "V<sub>0</sub> = -R<sub>1</sub> I<sub>s</sub> e(V<sub>i</sub>/ɳVT)",
+				"c": "V<sub>0</sub> = -R<sub>f</sub> I<sub>f</sub> e(V<sub>i</sub>/ɳVT)",
+				"d": "V<sub>0</sub> = -R<sub>f</sub> I<sub>s</sub> e(V<sub>f</sub>/ɳVT)"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "Find the output voltage of the log-amplifier.",
+			"answers": {
+				"a": "V<sub>0</sub> = -(kT)×ln(V<sub>i</sub>/V<sub>ref</sub>)",
+				"b": "V<sub>0</sub> = -(kT/q)×ln(V<sub>i</sub>/V<sub>ref</sub>)",
+				"c": "V<sub>0</sub> = -(kT/q)×ln(V<sub>ref</sub>/V<sub>i</sub>)",
+				"d": "V<sub>0</sub> = (kT/q)×ln(V<sub>i</sub>/V<sub>ref</sub>)"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "An antilog amplifier has ___________ in series with input.",
+			"answers": {
+				"a": "Inductor",
+				"b": "Capacitor",
+				"c": "Resistor",
+				"d": "Either diode or BJT"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "Determine the output voltage for the circuit of Figure 1 if Vin=1V, Ri=50kΩ, and Is=30nA. Assume T=300T=300 Kelvin.",
+			"answers": {
+				"a": "V<sub>out</sub>=−0.1684V",
+				"b": "V<sub>out</sub>=−0.2584V",
+				"c": "V<sub>out</sub>=−1.1684V",
+				"d": "V<sub>out</sub>=−2.1684V"
+			},
+			"correctAnswer": "a"
+		}
+	]
 }
