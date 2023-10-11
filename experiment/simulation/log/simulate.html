@@ -1,0 +1,108 @@
+<head>
+	<link rel="stylesheet" href="./css/simstyle.css">
+	<title>Log Amplifier</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+		crossorigin="anonymous"></script>
+</head>
+
+<body bgcolor="white" style="width:95em">
+	<div class="exp">
+		<p style="background-color: #044ca3;color:white;font-size:30px;text-align:center">Log Amplifier</p>
+		<a id="myBtn" href="#"><button id="myBtn" class="btn btn-danger" style="position: absolute;margin-top: -6px;
+				left: 91.5%;">Instructions</button></a>
+		<div class="image">
+			<img style="margin-left:15.9%;position:absolute;top:12em;" src="./images/meter.png" height=100
+				width=150></img>
+			<img style="margin-left:28.5%;margin-top:5.4%;" src="./images/Log.png" height=290 width=650></img>
+			<img style="margin-left:30px;position:absolute;top:120px;" src="./images/meter2.png" height=100
+				width=150></img>
+		</div>
+		<div><b style="position: absolute;top: 20em;left: 15em;">Input Voltmeter</b></div>
+		<div style="position: absolute;left: 68em;top: 15.5em;"><b>Output Voltmeter</b></div>
+		<div>
+			<p id="dragDropWindow1"></p>
+			<p id="dragDropWindow2"></p>
+			<p id="dragDropWindow3"></p>
+			<p id="dragDropWindow4"></p>
+			<p id="dragDropWindow5"></p>
+			<p id="dragDropWindow6"></p>
+			<p id="dragDropWindow7"></p>
+			<p id="dragDropWindow8"></p>
+		</div>
+
+		<!-- Division for buttons-->
+
+		<div class="top">
+			<form action="exp.html" method="" style="width:100%;text-align:right">
+				<div class="button"><button class="b1 btn btn-danger" type="button" id="check" value="CHECK"
+						style="width: 200px;">Check Connections</button></div>
+				<div class="button"><button href="exp.html" type="submit" id="start" style="cursor:not-allowed;width: 100px;"
+						value="START" disabled class="btn btn-secondary">Start</button></div>
+				<div class="button"><button class="b2 btn btn-warning" type="button" onclick="location.reload()"
+						value="RESET" style="width: 100px;">Reset</button></input>
+				</div>
+			</form>
+		</div>
+
+	</div>
+	<div
+		style="position:relative;top:48em;left:-1em;color:white;background-color: #044ca3;width: 93.6%;text-align: center;height:33px;padding:5px;">
+		Copyright&copy;2019 | Lab developed by Virtual Labs, IIT Roorkee</div>
+	<div class="instruct">
+		<!-- <a id="myBtn" href="#"><button id="myBtn" class="btn btn-primary">Instructions</button></a> -->
+		<div id="myModal" class="modal">
+			<div class="modal-content" style="position: absolute;width: 68%;top: 4%;left: 3%;">
+				<div class="modal-header">
+					<span class="close">×</span>
+					<h2>Instructions</h2>
+				</div>
+				<div class="modal-body">
+					<center><img src="./images/setup.png" alt="setup" width="600" height="250"></center>
+					<p>
+					<ol type="1" style="font-size:17px;font-family:Courier;">
+						<li>Connect the components as mentioned below:<br>(1-3),(2-4),(5-7),(6-8)</li>
+						<li>Click on <b>'Check'</b> button to check the connections. If connected connections are wrong, Make the right connection as per given instruction.</li>
+						<li>If connections are right, Click on the<b>'Start'</b> button to perform the experiment.</li>
+					</ol>
+					</p><br />
+					<!-- <label>Note:</label><b>Donot start before properly connecting the wires.</b> -->
+				</div>
+				<div class="modal-footer">
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var modal = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("myBtn");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		btn.onclick = function () {
+			modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function () {
+			modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+	<script src="./js/jsplumb.js"></script>
+	<script src="./js/demo.js"></script>
+</body>

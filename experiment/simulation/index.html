@@ -1,13 +1,71 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+    <head>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(45deg,#EE7752,#E73C7E,#23A6D4,#23D5BE,#228B22);
+            background-size: 400% 400%;
+            position:relative;
+            animation: change 10s ease-in-out infinite;/*for single color*/
+        }
+        
+        a{
+            background:rgb(0,0,0,0.7);
+            color:white;
+            position:relative;
+            padding:20px 30px;
+            text-decoration: none;
+            border-radius:4px;
+        }
+        a:hover{
+            background: rgb(0,0,0,0.5);
+            text-decoration: none;
+            color:white;
+        }
+        a:active{
+            background: rgb(0,0,0,0.6);
+            text-decoration: none;
+            color:white;
+        }
+        a:visited{
+            background: rgb(0,0,0,0.6);
+            text-decoration: none;
+            color:white;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        h1{
+            color:white;
+        }
+</style>
+    </head>
+    <body >
+
+     
+           <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+
+            <h1 align="center">Log and  Anti-log Amplifiers
+        </h1><br><br>
+            <!-- Write your experiment name -->
+            <h1 align="center">Simulation
+        </h1><br><br>
+          <center>
+            <a style="width:150px; height:50px;padding-top: 14px;" class="btn btn-primary" href="log/simulate.html" target="_blank">Log Amplifier</a> &nbsp;&nbsp;&nbsp;
+			<a style="width:150px; height:50px;padding-top: 14px;" class="btn btn-primary" href="antilog/simulate.html" target="_blank">Anti-log Amplifier</a>
+            </center> 
+          </section>
+        </div>
+    </body>
 </html>
+

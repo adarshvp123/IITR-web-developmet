@@ -1,0 +1,154 @@
+	.exp {
+    position: absolute;
+    top: 0em;
+    border: 5px;
+    left: 0%;
+    height: 48em;
+    width: 89em;
+    border-style: groove;
+    background-color: white;
+    /* width: 1422px; */
+}
+/* input {
+    background: #228b22;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+} */
+	#dragDropWindow1{
+		left: 19.9em;
+		top: 27.6em;
+		position: fixed;
+	}
+	#dragDropWindow6{
+		left: 17.5em;
+		top: 27.6em;
+		position: fixed;
+	}
+	#dragDropWindow8{
+		left: 62.1em;
+		top: 29.3em;
+		position: fixed;
+	}
+	#dragDropWindow4{
+		left: 73.55em;
+		top: 23.1em;
+		position: fixed;
+	}
+	#dragDropWindow5{
+		left: 42.5em;
+		top: 27em;
+		position: fixed;
+	}
+	#dragDropWindow2{
+		left: 27.7em;
+		top: 24em;
+		position: fixed;
+	}
+	#dragDropWindow7{
+		left: 71.3em;
+		top: 23.1em;
+		position: absolute;
+	}
+	#dragDropWindow3{
+		left: 62.1em;
+		top: 25.7em;
+		position: fixed;
+	}
+	.image{
+		position:relative;
+		margin-top:100px;
+	}
+	.top{
+		position:absolute;
+		bottom:50px;
+		right:30px;
+		/*z-index:10;*/
+	}
+	.instruct{
+		float:right;
+	}
+	.b1:hover{
+		background-color:yellow;
+		color:red;
+		cursor:pointer;
+	}
+	.b2:hover{
+		background-color:red;
+		color:white;
+		cursor:pointer;
+	}
+	.button{
+		display:inline-flex;
+		margin-right:50px;
+	}
+	.modal {
+		display: none;
+		position: fixed;
+		z-index: 1;
+		padding-top: 100px;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%; 
+		overflow: auto;
+		background-color: rgb(0,0,0); 
+		background-color: rgba(0,0,0,0.4);
+	}
+	.modal-content {
+		background-color: #fefefe;
+		margin: auto;
+		padding: 20px;
+		border: 1px solid #888;
+		width: 80%;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		-webkit-animation-name: animatetop;
+		-webkit-animation-duration: 0.4s;
+		animation-name: animatetop;
+		animation-duration: 0.4s
+	}
+	@-webkit-keyframes animatetop {
+		from {top:-300px; opacity:0} 
+		to {top:0; opacity:1}
+	}
+	@keyframes animatetop {
+		from {top:-300px; opacity:0}
+		to {top:0; opacity:1}
+	}
+	.close {
+		color: #ffffff;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
+	.close:hover,
+	.close:focus {
+		color: #000;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.modal-header {
+		padding: 2px 16px;
+		background-color: #044ca3;
+		color: white;
+	}
+	.modal-body {padding: 2px 16px;}
+	.modal-footer {
+		padding: 2px 16px;
+		background-color: #044ca3;
+		color: white;
+	}
+	path, .jtk-endpoint { cursor:pointer; }
+	.cmdLink { font-size:0.80em;}
+	.drag-drop-demo a, .drag-drop-demo a:visited {
+		color:#057D9F;
+	}
+	.demo {
+    /* for IE10+ touch devices */
+		touch-action:none;
+	}
+	body{
+	    margin-left: 15px!important;
+		margin-top: -23px!important;
+	}
